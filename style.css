@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins';
+
+    background:#0a3323;
+
+    color:#f7f4d5;
+}
+
+/* NAVBAR */
+
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 10%;
+
+    background:#839958;
+
+
+}
+
+.logo{
+
+    color:#333;
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:30px;
+}
+
+nav a{
+
+
+    color:#f7f4d5;
+
+    font: weight 300px;;
+}
+
+
+/* SECTIONS */
+
+.section{
+
+    width:80%;
+
+    margin:auto;
+
+    padding:100px 0;
+
+    text-align:center;
+
+    border-radius: 140px;
+}
+
+.section h2{
+
+    margin-bottom:30px;
+
+    color:#f7f4d5;
+
+    font-size:2.5rem;
+}
+
+.section p{
+
+    line-height:1.8;
+
+    font-size:1.1rem;
+}
+
+/* IMAGE */
+
+.section img{
+
+    width:220px;
+
+    margin-top:30px;
+
+    border-radius:20px;
+
+}
+
+/* CARDS */
+
+.cards{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    margin-top:40px;
+}
+
+.card{
+
+    background:#d3968c;
+
+    padding:30px;
+
+    width:400px;
+
+    border-radius:15px;
+
+}
+
+
+/* CONTACT LINKS */
+
+#contact a{
+
+    color:#0077ff;
+
+    text-decoration:none;
+}
